@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  background-color: rgb(52, 52, 52);
+  padding: 2em;
+  font-size: 1.2rem;
+}
+.home{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  padding: 1.2em;
+  color: rgb(52, 52, 52);
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size:1.3rem;
+  background-color:rgb(207, 207, 207);
+  height: 100%;
+}
+.workouts{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap:2em;
+}
+.workoutDetails-Container{
+  padding: 1.2em;
+  background-color: rgb(194, 194, 194)
+}
+.workoutDetails-Container h1{
+  color: blue;
+}
+header a{
+  color: rgb(207, 207, 207);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
