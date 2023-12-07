@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import WorkoutDetails from '../components/WorkoutDetails'
+import WorkoutForm from '../components/WorkoutForm'
 
 
 
@@ -24,6 +25,7 @@ useEffect(()=>{
 
             })}
         </div>
+        <WorkoutForm />
     </div>
 
   )

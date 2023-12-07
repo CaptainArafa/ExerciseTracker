@@ -41,3 +41,23 @@ header a{
   text-transform: uppercase;
   text-decoration: none;
 }
+label,input{
+  display: block;
+}
+input{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button{
+  background: rgb(100, 89, 89);
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
